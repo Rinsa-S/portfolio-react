@@ -11,6 +11,11 @@
     width: 500px;
 }
 
+.introName:hover {
+   
+
+}
+
 .introContent{
     height: 90vh;
     width: 100vw;
@@ -31,12 +36,40 @@
 }
 
 .introName{
-    color: wheat;
+    color: hsl(0, 0%, 28%);;
+    cursor: pointer;
+    letter-spacing:2.5px;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 25px;
+    background: linear-gradient(
+        to right,
+         rgb(179, 154, 107) 0,
+         rgb(245, 222, 179) 10%,
+         hsl(0,0%,30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+
 }
+
+@keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  
+  
 
 .introPara{
     font-size: medium;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 20px;
 } 
 
