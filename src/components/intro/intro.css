@@ -11,10 +11,7 @@
     width: 500px;
 }
 
-.introName:hover {
-   
 
-}
 
 .introContent{
     height: 90vh;
@@ -24,7 +21,8 @@
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
+    text-align: start;
      
 }
 

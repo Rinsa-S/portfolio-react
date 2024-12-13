@@ -1,22 +1,18 @@
-import React from "react";
-import Navbar from "./components/navbar/navbar";
-import Intro from "./components/intro/intro";
+import logo from './logo.svg';
 import './App.css';
-import Skills from "./components/skills/skills";
-import Contact from './components/contact/contact';
-import Footer from "./components/footer/footer";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Main from './Main';
 
 function App() {
   return (
-    <div >
-     
-     <Navbar />
-     <Intro />
-     <Skills />
-     <Contact />
-     <Footer />
-    
+    <div className="App">
+      
+      <Main/>
+
     </div>
   );
 }
