@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>What I Do</span>
-        <span className='skillDescr'>I'm a skilled and passionate web designer in creating visually appealing and user friendly web pages . I have a strong understanding of design and a keen eye foe design .</span>
+        <span className='skillDescr'>I'm a skilled and passionate web designer in creating visually appealing and user friendly web pages . I have a strong understanding of design and a keen eye for design .</span>
         <div className='skillBars'>
             <div className='skillBar'>
                 <img src={webdesigner} alt='webdesigner' className='skillBarImg'></img>
@@ -28,4 +28,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills 
