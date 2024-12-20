@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Quali from './pages/quali';
 import MyResume from './pages/MyResume';
+import Projectpage from './pages/projectpage';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <Route path="/" element={<Home />} />
         <Route path="/qualify" element={<Quali />} />
         <Route path="/resume" element={<MyResume />} />
+        <Route path='/projects' element={<Projectpage />} />
       </Routes>
     </Router>
   );

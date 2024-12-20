@@ -1,0 +1,28 @@
+.info{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: center;
+    text-align: start;
+    margin: 0 auto;
+    padding-bottom: 5%;
+   
+}
+
+.ihead{
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 40px;
+}
+
+.ides{
+    font-weight: 350;
+    font-size: medium;
+    width:100%;
+    padding: 0 2 rem;
+    text-justify: distribute ;
+}

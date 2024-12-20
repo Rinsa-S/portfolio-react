@@ -11,11 +11,11 @@ const Navbar = () => {
       <img src={logo} alt='Logo' className='logo' />
       <div className='desktopMenu'>
 
-      <NavLink activeClass="active" to="/" spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</NavLink>
-      <NavLink activeClass="active" to="/#skills" spy={true} smooth={true} offset={-50} duration={500}className='desktopMenuListItem'>About</NavLink>
+      <ScrollLink activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</ScrollLink>
+      <ScrollLink activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}className='desktopMenuListItem'>About</ScrollLink>
       <NavLink activeClass="active" to="/qualify" spy={true} smooth={true} offset={-50} duration={500}className='desktopMenuListItem'>Qualification</NavLink>
-      <ScrollLink activeClass="active" to="" spy={true} smooth={true} offset={-50} duration={500}className='desktopMenuListItem' >Projects</ScrollLink>
-      <ScrollLink activeClass="active" to="resume" spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Resume</ScrollLink>
+      <NavLink activeClass="active" to="/projects" spy={true} smooth={true} offset={-50} duration={500}className='desktopMenuListItem' >Projects</NavLink>
+      <NavLink activeClass="active" to="/resume" spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Resume</NavLink>
 
       
     </div>

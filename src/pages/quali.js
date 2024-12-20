@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/navbar";
-import Qualification from "../components/qualification/qualify";
+import Qualification from "../components/qualification/qualify/qualify";
+import Footer from "../components/qualification/footer/footer";
 
 
 function Quali() {
@@ -9,6 +10,7 @@ function Quali() {
      
      <Navbar />
      <Qualification />
+     <Footer />
     
     </div>
   );
